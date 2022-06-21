@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="shortcut icon" href="<?php echo base_url('assets_login/images/logo-minsel.png'); ?>"> -->
-    <title>Si Sinus | <?php $title; ?></title>
+    <title>Login | <?php $title; ?></title>
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets_login/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets_login/css/fontawesome-all.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo base_url() ?>assets_login/css/iofrm-style.css">
@@ -28,13 +28,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="form-body">
         <div class="row">
             <div class="form-holder">
-                <div class="form-content">
+                <div class="form-content" style="background-color:#F65314 ;">
                     <div class="form-items">
                         <div class="website-logo-inside">
                             <a href="<?php echo base_url('login/'); ?>">
                             </a>
                         </div>
-                        <h3>SI SINUS (Sistem Informasi Penyakit Sinusitis).</h3>
+                        <h3>Implementasi Metode Multiple Linear Regression Untuk Memprediksi Tingkat Kesejahteraan Masyarakat di Kelurahan Wangurer Utara.</h3>
                         <p>Silahkan masukkan nama akun dan kata sandi untuk masuk ke aplikasi.</p>
                         <div class="page-links">
                             <!-- <a href="<?php echo base_url('login'); ?>" class="active">Masuk</a> -->

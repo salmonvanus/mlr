@@ -86,7 +86,7 @@
     </div>
     <!-- Top Bar End -->
 
-    <div class="page-wrapper-img" style="box-shadow: inset 0 0 0 2000px rgba(218, 46, 15, 0.8);">
+    <div class="page-wrapper-img" style="box-shadow: inset 0 0 0 2000px rgba(25, 75, 96, 0.8);">
         <div class="page-wrapper-img-inner">
             <div class="sidebar-user media">
                 <img src="<?= base_url('assets/'); ?>images/users/<?= $profile['image']; ?>" class="rounded-circle mb-1">
