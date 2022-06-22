@@ -11,10 +11,10 @@
                      <a href="<?= base_url('admin/Beranda'); ?>"><i class="mdi mdi-desktop-mac-dashboard"></i><span class="">Beranda</span></a>
                  </li>
 
-                 <li class="<?php if ($this->uri->segment(3) == 'DataMaster') {
+                 <li class="<?php if ($this->uri->segment(3) == 'Masyarakat') {
                                 echo 'active';
                             } ?>">
-                     <a href="<?= base_url('admin/DataMaster'); ?>"><i class="mdi mdi-book-open-page-variant"></i><span class="">Data Master</span></a>
+                     <a href="<?= base_url('admin/Masyarakat'); ?>"><i class="mdi mdi-book-open-page-variant"></i><span class="">Data Master</span></a>
                  </li>
              </ul>
          </div>
