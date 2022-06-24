@@ -28,7 +28,6 @@
                                     <th>X3</th>
                                     <th>X4</th>
                                     <th>X5</th>
-                                    <th>Y</th>
                                 </tr>
                             </thead>
 
@@ -45,11 +44,17 @@
                                         <td><?= $row['x3']; ?></td>
                                         <td><?= $row['x4']; ?></td>
                                         <td><?= $row['x5']; ?></td>
-                                        <td><?= $row['y']; ?></td>
                                     </tr>
                                 <?php endforeach; ?>
                             </tbody>
                         </table>
+                        <p class="text-muted mb-0 font-15">Keterangan.</p>
+                        <p class="text-muted mb-0 font-13">X1 = Pendapatan</p>
+                        <p class="text-muted mb-0 font-13">X2 = Pendidikan</p>
+                        <p class="text-muted mb-0 font-13">X3 = Pekerjaan</p>
+                        <p class="text-muted mb-0 font-13">X4 = Jumlah Anggota Keluarga</p>
+                        <p class="text-muted mb-0 font-13">X5 = Aset dan Tabungan</p>
+
                     </div>
                 </div>
             </div> <!-- end col -->
