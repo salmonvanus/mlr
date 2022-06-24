@@ -88,7 +88,7 @@ class Perhitungan extends CI_Controller
             array($count_all_data, $sum_y['y'], $sum_x2['x2'], $sum_x3['x3'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_y['x1y'], $sum_x1x2['x1x2'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x2_y['x2y'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
-            array($sum_x3['3'], $sum_x3_y['x3y'], $sum_x2x3['x2x3'], $sum_x3_kuadrat['x3_kuadrat'], $sum_x3x4['x3x4'], $sum_x3x5['x3x5']),
+            array($sum_x3['x3'], $sum_x3_y['x3y'], $sum_x2x3['x2x3'], $sum_x3_kuadrat['x3_kuadrat'], $sum_x3x4['x3x4'], $sum_x3x5['x3x5']),
             array($sum_x4['x4'], $sum_x4_y['x4y'], $sum_x2x4['x2x4'], $sum_x3x4['x3x4'], $sum_x4_kuadrat['x4_kuadrat'], $sum_x4x5['x4x5']),
             array($sum_x5['x5'], $sum_x5_y['x5y'], $sum_x2x5['x2x5'], $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
