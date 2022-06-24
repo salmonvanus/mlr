@@ -66,7 +66,7 @@ class Perhitungan extends CI_Controller
         $sum_x4_kuadrat = $this->Data_masyarakat->sum_x4_kuadrat();
         $sum_x5_kuadrat = $this->Data_masyarakat->sum_x5_kuadrat();
 
-        $matriks_a = array(
+        $data['matriks_a'] = array(
             array($count_all_data, $sum_x1['x1'], $sum_x2['x2'], $sum_x3['x3'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1x2['x1x2'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x1x2['x1x2'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
@@ -75,7 +75,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x1x5['x1x5'], $sum_x2x5['x2x5'], $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a1 = array(
+        $data['matriks_a1'] = array(
             array($sum_y['y'], $sum_x1['x1'], $sum_x2['x2'], $sum_x3['x3'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1_y['x1y'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1x2['x1x2'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2_y['x2y'], $sum_x1x2['x1x2'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
@@ -84,7 +84,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5_y['x5y'], $sum_x1x5['x1x5'], $sum_x2x5['x2x5'], $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a2 = array(
+        $data['matriks_a2'] = array(
             array($count_all_data, $sum_y['y'], $sum_x2['x2'], $sum_x3['x3'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_y['x1y'], $sum_x1x2['x1x2'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x2_y['x2y'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
@@ -93,7 +93,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x5_y['x5y'], $sum_x2x5['x2x5'], $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a3 = array(
+        $data['matriks_a3'] = array(
             array($count_all_data, $sum_x1['x1'], $sum_y['y'], $sum_x3['x3'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1_y['x1y'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x1x2['x1x2'], $sum_x2_y['x2y'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
@@ -102,7 +102,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x1x5['x1x5'], $sum_x5_y['x5y'], $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a4 = array(
+        $data['matriks_a4'] = array(
             array($count_all_data, $sum_x1['x1'], $sum_x2['x2'], $sum_y['y'], $sum_x4['x4'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1x2['x1x2'], $sum_x1_y['x1y'], $sum_x1x4['x1x4'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x1x2['x1x2'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2_y['x2y'], $sum_x2x4['x2x4'], $sum_x2x5['x2x5']),
@@ -111,7 +111,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x1x5['x1x5'], $sum_x2x5['x2x5'], $sum_x5_y['x5y'], $sum_x4x5['x4x5'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a5 = array(
+        $data['matriks_a5'] = array(
             array($count_all_data, $sum_x1['x1'], $sum_x2['x2'], $sum_x3['x3'], $sum_y['y'], $sum_x5['x5']),
             array($sum_x1['x1'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1x2['x1x2'],  $sum_x1x3['x1x3'], $sum_x1_y['x1y'], $sum_x1x5['x1x5']),
             array($sum_x2['x2'], $sum_x1x2['x1x2'], $sum_x2_kuadrat['x2_kuadrat'],  $sum_x2x3['x2x3'], $sum_x2_y['x2y'], $sum_x2x5['x2x5']),
@@ -120,7 +120,7 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x1x5['x1x5'], $sum_x2x5['x2x5'],  $sum_x3x5['x3x5'], $sum_x5_y['x5y'], $sum_x5_kuadrat['x5_kuadrat'])
         );
 
-        $matriks_a6 = array(
+        $data['matriks_a6'] = array(
             array($count_all_data, $sum_x1['x1'], $sum_x2['x2'], $sum_x3['x3'], $sum_x4['x4'], $sum_y['y']),
             array($sum_x1['x1'], $sum_x1_kuadrat['x1_kuadrat'], $sum_x1x2['x1x2'], $sum_x1x3['x1x3'], $sum_x1x4['x1x4'], $sum_x1_y['x1y']),
             array($sum_x2['x2'], $sum_x1x2['x1x2'], $sum_x2_kuadrat['x2_kuadrat'], $sum_x2x3['x2x3'], $sum_x2x4['x2x4'], $sum_x2_y['x2y']),
@@ -129,20 +129,9 @@ class Perhitungan extends CI_Controller
             array($sum_x5['x5'], $sum_x1x5['x1x5'], $sum_x2x5['x2x5'],  $sum_x3x5['x3x5'], $sum_x4x5['x4x5'], $sum_x5_y['x5y'])
         );
 
-        // for ($row = 0; $row < 6; $row++) {
-        //     for ($col = 0; $col < 6; $col++) {
-        //         echo "<tr>";
-        //         echo "<td>" . $matriks_a[$row][$col] . "</td>";
-        //         echo "</tr>";
-        //     }
-        //     echo "<br />";
-        // }
 
-        // $matriks_H = array($sum_y, $sum_x1_y, $sum_x2_y, $sum_x3_y, $sum_x4_y, $sum_x5_y);
-
-
-        var_dump($matriks_a6);
-        die;
+        // var_dump($matriks_a6);
+        // die;
 
         $this->load->view('templates/header', $data);
         $this->load->view('templates/side_bar');
